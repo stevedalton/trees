@@ -35,7 +35,7 @@ func TestTree(t *testing.T) {
 			t.Errorf("After insert of %v, tree is not valid: %v", i, err)
 		}
 	}
-	t.Log(tree.String())
+	t.Log("\n", tree.String())
 
 	points := []int64{2, 3, 5, 7, 1, 13, 17}
 	for _, p := range points {
